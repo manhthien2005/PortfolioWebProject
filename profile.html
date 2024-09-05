@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="CSS/style_profile.css">
     <link rel="stylesheet" href="CSS/glow.css">    
     <title>Portfolio Website</title>
+    <link rel="icon" href="CSS/images/profile_logo.png" type="image/x-icon"/>
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">THIEN PHAN</a>
-
-        <nav>
-            <a href="profile.html" class="active"> Home</a>
-            <a href="#" >Services</a>
-            <a href="#" >Skills</a>
-            <a href="#" >Education</a>
-            <a href="#" >Experience</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <header class ="header">
+        <a href="#Home" class="logo">THIEN PHAN</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="nav">
+                <a href="#Home"> Home</a>
+                <a href="#Services">Services</a>
+                <a href="#Skill" >Skills</a>
+                <a href="#Education" >Education</a>
+                <a href="#Contact">Contact</a>
+        </nav>  
     </header>
-    <section class="home">
+    <section class="home" id="Home">
         <div class="home-img">
             <img src="CSS/images/main.jpg" alt="">
         </div>
@@ -31,17 +31,165 @@
             <h3 class="typing-text">I'm a <span></span></h3>
             <p>A friendly and humorous person, willing to try everything for his own dream. Although I don't have much working experience, my learning ability is remarkably fast so don't hesitate to give me new knowledge.</p>
             <div class="social-icons">
-                <a href="https://fb.com/100018207820231"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://github.com/manhthien2005"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/fdmt_2205/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://fb.com/100018207820231" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/manhthien2005" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter" target="_blank" rel="noopener noreferrer"></i></a>
+                <a href="https://www.instagram.com/fdmt_2205/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="#" class="btn">Hire me</a>
+            <a href="#Contact" class="btn">Hire me</a>
         </div>
     </section>
 
+    <section class="services"  id="Services">
+        <h2 class="heading"> Services </h2>
+        <div class="services-container">
 
+            <div class="services-box"> 
+                <div class="services-info"> 
+                    <h4>Graphic Designer</h4>
+                    <p>Still Studying!!!</p>
+                </div>
+            </div>
+
+            <div class="services-box"> 
+                <div class="services-info"> 
+                    <h4>Web Designer</h4>
+                    <p>Still Studying!!!</p>
+                </div>
+            </div>
+
+            <div class="services-box"> 
+                <div class="services-info"> 
+                    <h4>Web Developer</h4>
+                    <p>Still Studying!!!</p>
+                </div>
+            </div>
+
+            <div class="services-box"> 
+                <div class="services-info"> 
+                    <h4>UI/ UX Designer</h4>
+                    <p>Still Studying!!!</p>
+                </div>
+            </div>
+
+            <div class="services-box"> 
+                <div class="services-info"> 
+                    <h4>Frontend Development</h4>
+                    <p>Still Studying!!!</p>
+                </div>
+            </div>
+
+            <div class="services-box"> 
+                <div class="services-info"> 
+                    <h4>Backend Development</h4>
+                    <p>Still Studying!!!</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="skills" id="Skill"> 
+        <h2 class="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="CSS/images/Skills/python-logo.png">
+                        <span> Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="CSS/images/Skills/C++.png">
+                        <span> C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="Education">
+        <h2 class="heading">My <span>Education</span>
+            <div class="timeline">
+
+                <div class="container right">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>University</h2>
+                        </div>
+                        <div class="decs">
+                            <p><img src="CSS/images/logo-siu.png" alt="Logo" class="logo-small"> SIU - Sai Gon International University (2023 - 2027)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>High School</h2>
+                        </div>
+                        <div class="decs">
+                            <p><img src="CSS/images/NT-logo.png" alt="Logo" class="logo-small"> Nguyen Tran High School (2020 - 2023)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container right">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>Internship</h2>
+                        </div>
+                        <div class="decs">
+                            <p>Still Studying!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container left">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>Job-1</h2>
+                        </div>
+                        <div class="decs">
+                            <p>Still Studying!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container right">
+                    <div class="content">
+                        <div class="tag">
+                            <h2>Job-2</h2>
+                        </div>
+                        <div class="decs">
+                            <p>Still Studying!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </h2>
+    </section>
+
+    <section class="contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Phone Number" required>
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="8" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="copyright" data-value="© Phan Dien Manh Thien | All Right Reserved 2024"> © Phan Dien Manh Thien | All Right Reserved 2024</p>
+    </footer>
     <!-- Thêm file JavaScript tại đây -->
     <script src="JS/typing.js"></script>
+    <script src="JS/hacker_type.js"></script>
+    <!-- <script src="JS/script.js"></script> -->
 </body>
 </html>
